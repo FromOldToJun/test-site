@@ -1,0 +1,12 @@
+$maxwidth: 1920;
+
+@mixin adaptive-font($pcSize, $mobSize){
+    $addSize: $pcSize - $mobSize;
+    $addModSize: $addSize + $addSize*0.7;
+    @media(max-wodth: 767px){
+        font-size: calc(#{$mobSize + px} + #{$addModSize}*((100vw - 320px)/#{$maxwidth}));
+    }
+    @media(min-wodth: 767px){
+        font-size: calc(#{$mobSize + px} + #{$addModSize}*(100vw/#{$maxwidth}));
+    }
+}

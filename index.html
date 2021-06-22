@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="images/Favicon.png" type="image/png">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        
+        <ul class="header__top-list">
+          <li class="header__top-item">
+            <div class="header__top-logo">
+              <a href="#" class="logo-link">
+                <img class="logo" src="images/logo.png" alt="logo">
+              </a>
+              <p class="logo-slogan">
+                <span>Профессиональный монтаж
+                  дымоходов</span> любой сложности на
+                территории Киева и Киевской обл.
+              </p>
+            </div>
+          </li>
+          <li class="header__top-item">
+            <div class="header__top-map">
+              <a class="top-map" id="modal-window" href="#">
+                <img class="map-icon" src="images/map-icon.png" alt="map-icon">
+                <p class="address">
+                  <span class="address__bold">Украина, Киев,</span> 
+                  Васильковская 30
+                  <span>Показать на карте</span>
+                </p>
+              </a>
+              <div id="modal__map" class="modal__map">
+                <div class="modal__content">
+                  <span class="modal-window-close">×</span>
+                  <div style="position:relative;overflow:hidden;">
+                    <a href="https://yandex.by/maps/143/kyiv/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Киев</a>
+                    <a href="https://yandex.by/maps/143/kyiv/house/vasylkivska_vulytsia_30/Z0kYcg9pQUUHQFtqfX94cnRhZA==/?ll=30.489800%2C50.393820&utm_medium=mapframe&utm_source=maps&z=17.09" style="color:#eee;font-size:12px;position:absolute;top:14px;">Васильковская улица, 30 — Яндекс.Карты</a>
+                    <iframe src="https://yandex.by/map-widget/v1/-/CCUeITXqhA" width="100%" height="500" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="header__top-item">
+            <a class="header__top-btn" href="#">
+              Консультация инженера
+            </a>
+          </li>
+          <li class="header__top-item">
+            <div class="header__contacts">
+              <a class="telephone" href="tel:+38 067 242-58-78">
+                <img class="telephone-icon" src="images/telephone.png" alt="tel">
+                <p class="telephone-number">+38 067 242-58-78</p>
+              </a>
+              <ul class="social__list">
+                <li class="social__item">
+                  <a href="#" class="social-link">
+                    <img class="social-icon" src="images/viber.png" alt="viber">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social-link">
+                    <img class="social-icon" src="images/telegram.png" alt="telegram">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social-link">
+                    <img class="social-icon" src="images/watsapp.png" alt="watsapp">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul> 
+
+        <div class="burger-menu">
+          <a href="" class="burger-menu__button">
+            <spun class="burger-menu__lines"></spun>
+          </a>
+          <nav class="burger-menu_nav">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu-link" href="#">калькулятор</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu-link" href="#">услуги</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu-link" href="#">наши новости</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu-link" href="#">отзывы</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu-link" href="#">консультация</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu-link" href="#">преимущества</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu-link" href="#">производство</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu-link" href="#">вопрос-ответ</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu-link" href="#">контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="burger-menu__overlay"></div>
+        </div>
+
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu-link" href="#">калькулятор</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu-link" href="#">услуги</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu-link" href="#">наши новости</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu-link" href="#">отзывы</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu-link" href="#">консультация</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu-link" href="#">преимущества</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu-link" href="#">производство</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu-link" href="#">вопрос-ответ</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu-link" href="#">контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__content">
+        <div class="header__left">
+          <h1 class="header__title">
+            <span>Монтаж дымоходов из
+              нержавеющей стали</span> для
+            частных домов и предприятий
+          </h1>
+            <ul class="header__desc">
+              <li class="desc__item">
+                <p class="desc__text desc__span"><span>лет устанавливаем
+                  дымоходы</span> для частных
+                  лиц и организаций</p>
+              </li>
+              <li class="desc__item">
+                <p class="desc__text"><span>Бесплатный выезд
+                  инженера</span> в пределах
+                  30 км. от Киева</p>
+              </li>
+              <li class="desc__item">
+                <p class="desc__text"><span>Монтаж под ключ от
+                  1 дня,</span> в наличии все
+                  разрешительные
+                  документы</p>
+              </li>
+            </ul>
+            <div class="header__bottom">
+              <div class="header__benefits">
+                <p class="benefits__text">
+                  Рассчитайте стоимость монтажа вашего
+                  дымохода за 1 минуту и    <span>получите скидку 15%</span>
+                </p>
+                <a class="benefits__btn" href="#">
+                  <p>Рассчитать стоимость</p>
+                  <p>монтажа и получить скидку</p>
+                </a>
+              </div>
+              <div class="header__slider">
+                <p class="header__slider-title">
+                  Лицензии и сертификаты в наличии
+                </p>
+                  <div class="swiper__slider swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <img src="images/doc-1.jpg" alt="doc">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/doc-1.jpg" alt="doc">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/doc-1.jpg" alt="doc">
+                      </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="header__right">
+          <img class="right-img" src="images/worker.png" alt="right">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
